@@ -86,7 +86,7 @@
 				    
 				    <li><a href="/categories/Casino/" class="animsition-link">Casino<small>(3)</small></a></li>
 				    
-				    <li><a href="/categories/Casino-Games/" class="animsition-link">Casino Games<small>(2)</small></a></li>
+				    <li><a href="/categories/Casino-Games/" class="animsition-link">Casino Games<small>(3)</small></a></li>
 				    
 				    <li><a href="/categories/Early-Education/" class="animsition-link">Early Education<small>(2)</small></a></li>
 				    
@@ -94,7 +94,7 @@
 				    
 				    <li><a href="/categories/Online-Casino/" class="animsition-link">Online Casino<small>(4)</small></a></li>
 				    
-				    <li><a href="/categories/Roulette/" class="animsition-link">Roulette<small>(2)</small></a></li>
+				    <li><a href="/categories/Roulette/" class="animsition-link">Roulette<small>(3)</small></a></li>
 				    
 				    <li><a href="/categories/casino-games/" class="animsition-link">casino games<small>(1)</small></a></li>
 				    
@@ -322,7 +322,31 @@ $('#intro').find('img').each(function(){
       
 </body>
 </html>
-trap core and concatenated plugins always load here -->
+         </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+</footer>
+
+<!-- ============================ END Footer =========================== -->
+      <!-- Load our scripts -->
+<!-- Resizable 'on-demand' full-height hero -->
+<script type="text/javascript">
+    var resizeHero = function () {
+        var hero = $(".cover,.heightblock"),
+            window1 = $(window);
+        hero.css({
+            "height": window1.height()
+        });
+    };
+
+    resizeHero();
+
+    $(window).resize(function () {
+        resizeHero();
+    });
+</script>
+<script src="/js/plugins.min.js"></script><!-- Bootstrap core and concatenated plugins always load here -->
 <script src="/js/scripts.js"></script><!-- Theme scripts -->
 
 
